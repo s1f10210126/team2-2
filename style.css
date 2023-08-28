@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+div,p,h1,h2,h3,h4,h5,h6,body,ul,dl,dd,dt { margin:0; padding:0;}
+
+li { list-style:none outside;}
+
+body { font-size:14px; line-height:120%; text-align:center; font-family: "ＭＳ Ｐゴシック","ヒラギノ角ゴ Pro W3",Osaka,verdana,arial,sans-serif,palatino,georgia; }
+
+#top { height:10px; background-color:#f0f0f0; border-bottom:1px solid #ddd; } 
+#container { width:960px; margin:0 auto; text-align:left;  } 
+#header { background-color:#fff; padding:13px 10px 5px; border-bottom:0px solid #ddd; }
+#main { padding:5px 0 0; clear:both; } 
+#footer { font-size:12px;  border-top:1px solid #ddd; background-color:#f5f5f5; text-align:right; padding:20px 20px 10px; margin-top:20px;}
+
+img.title-logo { border:0;  }
+h1 { font-size:13px; color:#444; margin-top:5px;}
+h2.h2-bar1 { font-size:15px; background-color:#f4f4f4; border-top:1px solid #aaa;border-bottom:1px solid #aaa; padding:3px 15px; }
+h2.h2-bar2 { font-size:15px; background-color:#555; color:#fff; padding:3px 15px; }
+h2.pname { font-size:18px; margin-bottom:10px; padding:5px 10px;  }
+
+h3.h3-bar1 { font-size:15px; background-color:#008080; color:#fff; padding:3px 15px; }
+h3.h3-bp { font-size:13px;color:#222; background-color:#ddd; padding:3px; text-align:center; margin-bottom:5px;}
+h3.h3-r { font-size:18px;font-weight:bold; color:#f30;margin-bottom:5px;padding:4px 0; line-height:140%; }
+
+div.sub-menu  { padding:5px; background-color:#f5fff5; border:1px solid #5a5; font-size:13px;margin-bottom:5px; }
+div.year-menu  { padding:5px; background-color:#f5f5ff; border:1px solid #55a; font-size:14px;margin-bottom:5px; }
+div.bbf-menu  { padding:5px; background-color:#f5ffff; border:1px solid #55ab9d; font-size:13px;margin-bottom:5px; }
+
+table.player-info { width: 600px; background-color:#aaa; margin-bottom:15px; } 
+table.player-info th { background-color:#ccc; border:1px solid #fff; text-align:center; padding:3px 5px;} 
+table.player-info td { background-color:#fff; border:1px solid #fff;  padding:3px 5px; } 
+
+div.box1 { padding:8px; margin-bottom:10px;}
+div.box1 p { margin-bottom:1em;}
+table.stats-menu { width:100%; }
+table.stats-menu td { padding:4px 8px; }
+
+table.rank-menu { width:100%; text-align:center; }
+table.rank-menu th { padding:4px 8px; }
+table.rank-menu td { padding:4px 8px; }
+
+img.icon-team { width:16px;height:16px; vertical-align:middle; margin-right:5px; }
+
+ul.list1 { padding:8px; }
+ul.list1 li { background:url(image/point1.gif) no-repeat left 1px; padding-left:18px; margin-bottom:4px; width:28%; float:left;  }
+ul.list1:after { clear: both; }
+
+ul.list-r { padding:8px;}
+ul.list-r li { background:url(image/point1.gif) no-repeat left 1px; padding-left:18px; margin-right:12px; display:bock; float:left;}
+
+ul.info { padding:5px;font-size:12px; }
+ul.info li { border-bottom:1px solid #ccc; padding:2px 0; }
+
+div.box-link { padding:10px 10px; border:1px solid #aaa; border-top:0;margin-bottom:10px; }
+dl.link dd { margin:0 10px 5px;}
+dl.link dt { font-weight:bold; color:#060;}
+
+div.right  { font-size:13px;text-align:right;margin:0 10px 5px; }
+
+/* 順位表 */
+table.standings  {font-size:14px; padding:0;margin:0; width:348px;}
+table.standings th { font-weight:normal;text-align:center; color:#222;background-color:#eee; padding:5px 0 3px;}
+table.standings td { text-align:right; padding:5px;}
+div.st-hd { font-size:14px;padding:5px 25px 4px;color:#FFF; font-weight:bold; }
+/*
+div.st-pa { font-size:14px;padding:5px 25px 4px; background:url(image/icon/pa.png) no-repeat 5px center; background-color:#4daee5;color:#FFF; font-weight:bold; }
+div.st-es { font-size:14px;padding:5px 25px 4px; background:url(image/icon/es.png) no-repeat 5px center; background-color:#4aaf6e;color:#FFF; font-weight:bold; }
+div.st-ws { font-size:14px;padding:5px 25px 4px; background:url(image/icon/ws.png) no-repeat 5px center; background-color:#4daee5;color:#FFF; font-weight:bold; }
+*/
+div.st-bottom { font-size:14px; text-align:center; margin-top:10px ; line-height:1.3; }
+div.st-bottom a { background:url(image/arrow1.gif) no-repeat left 2px; padding-left:14px;}
+
+/*スタメン*/
+table.lineup { 	background-color: #CDCDCD; font-size:12px; margin:8px 0 20px; width:100%; } 
+table.lineup th { width:90px; padding:5px; text-align:center; background-color:#ddd;} 
+table.lineup td { padding:4px 0;text-align:center; } 
+/*先発投手・バッテリー*/
+table.starter { background-color: #CDCDCD; font-size:12px; margin:8px 0 20px; width:100%;} 
+table.starter th { padding:5px; text-align:center; background-color:#ddd;} 
+table.starter td { padding:4px 0;text-align:center; } 
+
+table.starter2 { 	background-color: #CDCDCD; font-size:12px; margin:8px 0 20px; width:100%;} 
+table.starter2 th { padding:5px; text-align:center; background-color:#ddd;} 
+table.starter2 td { padding:4px 10px;text-align:left; width:150px;} 
+
+/* ad */
+.ad { text-align:center; margin:0 auto 5px; height:90px; clear:both; }
+
+/* 成績テーブル */
+table.players td { text-align:center; }
+table.stats td { text-align:right; }
+
+table.tablesorter {
+	background-color: #CDCDCD;
+	margin:0px 0px 15px;;
+	font-size: 14px;
+	width: 100%;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #ddd; /*#B1DB87;*/
+	border: 1px solid #FFF;
+	padding: 4px 4px 10px;
+	text-align: center;
+	height:80px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(image/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center 95%;
+	cursor: pointer;
+}
+table.tablesorter tbody tr {
+	background-color:#fff;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {	background-color:#e5ffe5 ; }
+table.tablesorter thead tr .headerSortUp   { background-image: url(image/desc.gif); }
+table.tablesorter thead tr .headerSortDown { background-image: url(image/asc.gif); }
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp { background-color: #83C948; }
+
+
+#footer p { margin-bottom:10px; }
+
+/* アンカー  */
+
+
+a:link { color:#33f; text-decoration:none; }
+a:visited { color:#33a; text-decoration:none; }
+a:active { color:#33a; text-decoration:none; }
+a:hover { color:#f33; text-decoration:none; }
+
